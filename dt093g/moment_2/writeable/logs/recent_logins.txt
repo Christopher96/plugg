@@ -1,0 +1,3 @@
+2016-11-07, 09:58:13, Misslyckad inlogging för användare 'admin'
+2016-11-07, 09:58:16, Misslyckad inlogging för användare 'admin'
+2016-11-07, 09:58:24, Lyckad inlogging för användare 'admin'

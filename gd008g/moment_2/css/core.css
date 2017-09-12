@@ -1,0 +1,24 @@
+/* GLOBAL CORE CSS */
+
+body {
+	background-color: #424242;
+	color: #424242;
+	margin: 0;
+	padding: 0;
+}
+
+#menu {
+	background-color: #00FFFF;
+	height: 40px;
+}
+
+#menu ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+
+#content {
+	background-color: #0CE8AA;
+}

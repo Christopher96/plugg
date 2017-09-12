@@ -1,0 +1,102 @@
+
+/* GENERAL */
+
+#container {
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* HEADER ELEMENTS */
+
+#container > header {
+	background-color: #0DFF76;
+	height: 200px;
+}
+
+#logo {
+	width: 200px;
+	height: 200px;
+	display: inline-block;
+}
+
+#page-header{
+	display: inline-block;
+	width: 500px;
+	padding:40px;
+}
+
+#page-header h1 {
+	margin:0;
+}
+
+#site-title {
+	float:left;
+}
+
+#help {
+	width: 171px;
+	float:right;
+}
+
+#help > * {
+	box-sizing: border-box;
+	display: block;
+	width: 100%;
+}
+
+/* MENU */ 
+#menu ul li {
+	display: inline-block;
+	padding:10px;
+}
+
+/* MAIN CONTENT */
+
+#content {
+	background-color: #0CE8AA;
+	overflow: auto;
+}
+
+#left-content,
+#right-content {
+	padding: 20px;
+	box-sizing: border-box;
+}
+
+/* LEFT CONTENT */
+
+#left-content {
+	width: 550px;
+	height: 100%;
+	float: left;
+}
+
+/* RIGHT CONTENT */
+
+#right-content {
+	border-left: 1px solid;
+	width: 250px;
+	height: 100%;
+	float:right;
+}
+
+article {
+	background-color: #0CAEE8;
+}
+
+/* FOOTER ELEMENTS */
+
+#container > footer {
+	background-color: #0DFF76;
+	height: 30px;
+	padding-top: 10px;
+}
+
+#container > footer > p{
+	margin: 0;
+	box-sizing: border-box;
+	display: inline-block;
+	width: 33%;
+	padding: 0 15px;
+}

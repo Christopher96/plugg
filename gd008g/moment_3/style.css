@@ -1,0 +1,156 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
+
+@media screen and (min-width: 980px){
+	body {
+		padding:70px 0;
+	}
+}
+
+body {
+
+	margin:0;
+	background-color: #333;
+	line-height: 1.4em;
+}
+
+#container {
+	max-width: 980px;
+	min-width: 300px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin:0;
+	padding:0;
+
+	font-family: 'Open Sans', georgia, sans-serif;
+	text-transform: uppercase;
+}
+
+p {
+	padding: 10px;
+}
+
+p, a, li {
+	margin:0;
+	font-family: verdana, trebuchet, tahoma;	
+}
+
+a {
+	color: #e21304;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+#intro,
+#supportingText > div:not(#footer) {
+	padding: 20px;
+	background-color: white;
+	margin-bottom: 20px;
+}
+
+#pageHeader{
+	text-align: center;
+	font-size: 25px;
+	padding: 30px 0 0 20px;
+}
+
+#pageHeader span {
+	line-height: 1.4em;
+}
+
+#quickSummary {
+	padding: 0 20px 20px 20px;
+}
+
+#pageHeader,
+#quickSummary {
+	text-align: center;
+}
+
+#pageHeader,
+#quickSummary,
+#supportingText h3 {
+	color: white;
+	background-color: #06d179;
+	margin: -20px;
+	margin-bottom: 20px;
+}
+
+#supportingText h3 {
+	padding: 20px;
+}
+
+#benefits > ul {
+	border-left: 10px solid #06d179;
+	margin-left: 10px;
+}
+
+#footer {
+	margin-top: 50px;
+	border-bottom: 1px solid;
+	color: white;
+	padding: 20px;
+	text-align: center;
+}
+
+#linkList {
+	color:white;
+	margin-top: 20px;
+}
+
+#footer a,
+#linkList a {
+	color:#06d179;
+}
+
+#linkList ul {
+	margin:0;
+	padding:0;
+	list-style-type: none;
+}
+
+#linkList li {
+	padding-top: 20px;
+}
+
+#lcsslinks,
+#lseealso {
+	margin-top: 10px;
+	display: inline-block;
+}
+
+#lcsslinks {
+	margin-right: 50px;
+}
+
+#lseealso {
+	vertical-align: top;
+}
+
+#validate {
+	text-align: center;
+	margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

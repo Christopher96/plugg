@@ -1,0 +1,157 @@
+* {
+    box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6,ul,li {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #595959;
+    color: white;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #595959;
+    padding: 30px;
+}
+
+#resize-window {
+    padding: 50px;
+    color: #595959;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#jumbotron {
+    height: 300px;
+    background-image: url("../img/jumbotron.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% auto;
+}
+
+#menu {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    list-style: none;    
+}
+
+#menu li {
+    padding: 20px;    
+}
+
+#menu a {
+    color: white;
+}
+
+#menu a:hover {
+    color: #300000;
+}
+
+#search {
+    padding: 0 40px;
+    flex-grow: 1;
+    display: flex;
+}
+
+#search input {
+    flex-grow: 1;
+    max-width: 480px;
+    padding: 10px;
+}
+
+#search button {
+    padding: 10px;
+}
+
+#content section {
+    width: 100%;
+    padding: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#articles {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+}
+
+#articles article {
+    min-width: 340px;
+    padding: 15px;
+    flex: 1 1 0;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    padding: 30px;
+    color: #595959;
+}
+
+.bullet {
+    padding: 0 20px;
+}
+
+@media all and (max-width: 480px) {
+    #articles article {
+        padding: 5px;
+    }
+
+    #jumbotron img {
+        width: 200%;
+    }
+
+    #menu {
+        flex-direction: column;
+    }
+    
+}
+
+@media all and (max-width: 900px) {
+    #jumbotron {
+        background-attachment: scroll;
+    }
+
+    header {
+        flex-direction: column;
+    }
+
+    #search {
+        width: 100%;
+        padding: 0;
+        padding-top: 10px;
+        justify-content: center;
+        
+    }
+
+    #menu {
+        justify-content: center;
+        width: 100%;
+    }
+
+    footer {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .bullet {
+        display: none;
+    }
+}
+  

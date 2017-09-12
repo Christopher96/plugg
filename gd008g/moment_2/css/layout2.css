@@ -1,0 +1,104 @@
+
+/* GENERAL */
+
+#container {
+	max-width: 1280px;
+	min-width: 640px;
+	background-color: #0CAEE8;
+}
+
+h1, p {
+	margin:0;
+}
+
+
+/* HEADER ELEMENTS */
+
+#page-header{
+	padding: 30px;
+	height: 100%;
+	vertical-align: middle;
+}
+
+#site-title {
+	width: 30%;
+	float: left;
+}
+
+#site-desc {
+	width: 70%;
+	float: right;
+	text-align: right;
+}
+
+/* LEFT SECTION */
+
+#logo {
+	width: 180px;
+	height: 180px;
+	position: absolute;
+	left:0;
+	top:0;
+}
+
+#left-section {
+	margin-top: 180px;
+	padding: 20px;
+	box-sizing: border-box;
+	display: inline-block;
+	width: 180px;
+	float: left;
+}
+
+#left-section > * {
+	width: 100%;
+	box-sizing: border-box;
+}
+
+/* RIGHT SECTION */
+
+#right-section {
+	margin-left: 180px;
+}
+
+#right-section > header {
+	background-color: #0DFF76;
+	height: 120px;
+}
+
+#content {
+	padding: 50px;
+	overflow: auto;
+}
+
+#content_img {
+	width: 200px;
+	height: 200px;
+	float: right;
+}
+
+/* FOOTER ELEMENTS */
+
+footer {
+	box-sizing: border-box;
+	background-color: #0DFF76;
+	height: 70px;
+	padding: 20px;
+}
+
+footer > div {
+	display: inline-block;
+}
+
+footer > div > p {
+	display: block;
+}
+
+footer > div:first-child {
+	float:left;
+}
+
+footer > div:last-child {
+	float:right;
+	text-align: right;
+}

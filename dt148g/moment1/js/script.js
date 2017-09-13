@@ -4,9 +4,10 @@ window.addEventListener("DOMContentLoaded", onReady);
 var wtxt, htxt;
 
 function onReady(e) {
+  console.log("asdf")
     var div = document.createElement("div");
     div.setAttribute("id", "resize-window");
-    div.innerHTML = "Width: <span id='resize-width'></span> px<br/>Height: <span id='resize-height'></span> px";
+    div.innerHTML = "<code>Width: <span id='resize-width'></span> px<br/>Height: <span id='resize-height'></span> px</code>";
     document.body.appendChild(div);
     wtxt = document.querySelector("#resize-width");
     htxt = document.querySelector("#resize-height");

@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>moment2</title>
+
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <!-- build:css styles/vendor.css -->
+    <!-- bower:css -->
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- build:css styles/main.css -->
+    <link rel="stylesheet" href="styles/main.css">
+    <!-- endbuild -->
+    
+  </head>
+  <body>
+    <header>
+        <nav class="container">
+          <ul class="nav nav-pills mb-3 mt-3" id="pills-tab" role="tablist">
+            <li class="nav-item">
+              <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-expanded="true">Ramverk</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-expanded="true">Om mig</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="jumbotron jumbotron-fluid">
+          <div class="container">
+            <h1 class="display-2">Moment 1</h1>
+            <h3 class="font-italic text-secondary">Ramverk för Responsiv webbdesign</h3>
+          </div>
+        </div>
+    </header>
+    <div class="tab-content" id="pills-tabContent">
+      <div class="tab-pane fade show active container" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+          <div id="bootstrap" class="row">
+              <div class="col-lg-6 order-lg-2">
+                  <img src="images/twitter-bootstrap.jpg" class="rounded" alt="Responsive image">
+              </div>
+              <div class="col-lg-6 order-lg-1">
+                  <h2 class="title"><a href="http://getbootstrap.com" target="_blank">Twitter Bootstrap</a></h2><hr/>
+                  <p>Twitter Bootstrap är ett ramverk som är perfekt för att skapa responsiva mobile first hemsidor. Bootstrap är ett opensource ramverk för utveckling inom HTML, CSS och JavaScript. Det stödjer flera Sass variabler och mixins, ett responsivt gridsystem, ett stort utbud av komponenter och användbara plugins för jQuery som gör utvecklingen snabb och effektiv.</p>
+                  <a href="#" class="btn btn-primary">Läs mer...</a>
+              </div>     
+          </div>
+          <div class="row bootstrap-content">
+              <div class="col-lg-6">
+                  <h2 class="title">Komponenter</h2><hr/>
+                  <p>Det finns många färdiga komponenter att välja på i bootstrap. Genom att använda CSS klasser som <code>.input-group</code>, <code>.navbar</code>, <code>.alert</code> eller <code>.dropdown</code> så kan man snabbt skapa responsiva komponenter som fungerar anpassar sig till storleken. Om man vill ändra utséende så kan man använda ex. <code>.bg-primary</code> eller <code>.navbar-dark</code> och sen ändra Sass variablerna för att få ett enhetligt tema.</p>
+              </div>
+              <div class="col-lg-6">
+                  <div class="progress mb-3">
+                      <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+                      </div>
+                      <div class="alert alert-primary" role="alert">
+                      This is a primary alert—check it out!
+                  </div>
+                  <div class="input-group">
+                      <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                      <span class="input-group-addon" id="basic-addon2">@example.com</span>
+                  </div>
+                  <select class="form-control form-control-lg mt-3 mb-3">
+                      <option>Large select</option>
+                  </select>
+                  <form class="mt-3 mb-3">
+                      <div class="form-row align-items-center">
+                        <div class="col-auto">
+                          <label class="sr-only" for="inlineFormInput">Name</label>
+                          <input type="text" class="form-control mb-2 mb-sm-0" id="inlineFormInput" placeholder="Jane Doe">
+                        </div>
+                        <div class="col-auto">
+                          <label class="sr-only" for="inlineFormInputGroup">Username</label>
+                          <div class="input-group mb-2 mb-sm-0">
+                            <div class="input-group-addon">@</div>
+                            <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Username">
+                          </div>
+                        </div>
+                        <div class="col-auto">
+                          <button type="submit" class="btn btn-primary">Submit</button>
+                        </div>
+                      </div>
+                    </form>
+                  <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+                      <button type="button" class="btn btn-primary">1</button>
+                      <button type="button" class="btn btn-primary">2</button>
+                      <div class="btn-group" role="group">
+                          <button id="btnGroupDrop1" type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Dropdown
+                          </button>
+                          <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                          <a class="dropdown-item" href="#">Dropdown link</a>
+                          <a class="dropdown-item" href="#">Dropdown link</a>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="row bootstrap-content">
+              <div class="col-lg-6">
+                  <h2 class="title">Gridsystem</h2><hr/>
+                  <p>Bootstrap använder ett flexibelt gridsystem med hjälp av 12 kolumner som tillåter flera olika typer av storlekar och former av layout. Det är enkelt att skapa responsiv layout med fördefinerade klasser som ex. <code>.col-md-6</code>, <code>.pull-lg-right</code>, <code>.hidden-md-up</code> eller <code>.col-auto</code> där man kan med en speciell syntax välja exakt för vilka storlekar där klassen ska gälla. Sass variabler och mixins går att använda på samma sätt <code>@include media-breakpoint-down(md)</code> eller <code>$grid-breakpoints</code>. Systemet använder sig av 5 responsiva lager som går från den minsta telefonen upp till desktop</p>
+              </div>
+              <div class="col-lg-6 cols">
+                      <!-- Stack the columns on mobile by making one full-width and the other half-width -->
+                  <div class="row">
+                      <div class="col-12 col-md-8">.col-12 .col-md-8</div>
+                      <div class="col-12 col-md-4">.col-12 .col-md-4</div>
+                  </div>
+                  
+                  <!-- Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop -->
+                  <div class="row">
+                      <div class="col-12 col-md-4">.col-12 .col-md-4</div>
+                      <div class="col-6 col-md-4">.col-6 .col-md-4</div>
+                      <div class="col-6 col-md-4">.col-6 .col-md-4</div>
+                  </div>
+                  
+                  <!-- Columns are always 50% wide, on mobile and desktop -->
+                  <div class="row">
+                      <div class="col-6">.col-6</div>
+                      <div class="col-6">.col-6</div>
+                  </div>
+                  
+                  <div class="row">
+                      <div class="col-3">.col-3</div>
+                      <div class="col-3">.col-3</div>
+                      <div class="col-3">.col-3</div>
+                      <div class="col-3">.col-3</div>
+                  </div>
+              </div>
+          </div>
+          <div class="row bootstrap-content">
+              <div class="col-lg-6">
+                  <h2 class="title">JavaScript</h2><hr/>
+                  <p>Utöver Bootstraps praktiska gridsystem och klasser så finns det även möjlighet att lägga på Bootstraps JavaScript bibliotek och få tillgång till en hel del användbara interaktiva komponenter som ex. Modaler som använder jQuery och nu även Popups med Bootstrap 4 som använder popper.js</p>
+              </div>
+              <div class="col-lg-6" style="padding-left: 8rem; padding-right: 8rem;">
+                  <img src="images/js.jpg"class="rounded" alt="Responsive image">
+              </div>
+          </div>
+          <div id="foundation" class="row">
+              <div class="col-lg-6">
+                  <img src="images/foundation.jpg" class="rounded" alt="Responsive image">
+              </div>
+              <div class="col-lg-6">
+                  <h2 class="title"><a href="http://foundation.zurb.com/" target="_blank">Foundation</a> </h2><hr/>
+                  <p>Foundation är släpptes 2011 av organisationen Zurb. Precis som Bootstrap så kommer Foundation med ett funktionellt gridsystem, CSS och JavaScipt komponenter. Tidigare så ansågs Foundation vara ett av dem bästa ramverken för webbdesign speciellt då det var ett bland dem första som stödje Sass. Det senaste Foundation 6.0 släpptes 2015. Nu har man uppdelat det i "Foundation for Sites" och "Foundation for Emails" där templates och kompontenter skiljer sig beroende på miljö. Det går också att välja om man vill köra ren CSS eller Sass och även Ruby on Rails.</p>
+              </div>
+          </div>
+          <div id="purecss" class="row">
+              <div class="col-lg-6 order-lg-2">
+                  <img src="images/purecss.jpg" class="rounded" alt="Responsive image">
+              </div>
+              <div class="col-lg-6 order-lg-1">
+                  <h2 class="title"><a href="http://foundation.zurb.com/" target="_blank">PureCSS</a> </h2><hr/>
+                  <p>PureCSS är ett väldigt lätt och simpelt ramverk som fungerar utmärkt för exempelvis mobila applikationer då det väger endast 3.8 kb minfierat. Det bygger på Normalize.css som gör att HTML elementen framställs förenligt med moderna standarder. Även fast det är så litet så finns det ändå tillgång till komponenter för knappar, menyer och formulär och ett gridsystem. PureCSS har anpassats för att kunna överskrivas och dem uppmuntrar en att lägga på egna stilmallar. Det är också väldigt tänjbart, så om man skulle vela lägga på exempelvis bootstrap modals så är det inga problem.</p>
+              </div>
+          </div>
+      </div>
+      <div class="tab-pane fade container" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+        <div class="row">
+            <div class="col-lg-4">
+                <img src="images/headshot.jpg" alt="headshot" class="img-thumbnail rounded">
+            </div>
+            <div class="col-lg-6">
+                <h2 class="title">Om mig</h2><hr/>
+                <p>Mitt namn är Christopher Gauffin, jag är 21 år gammal, bor i Stockholm. Mina intressen är gym, teknik, programmering, webbutveckling, datorspel, skidor, resor och festande. Jag jobbar på ett företag som heter en adserving byrå som heter Sizmek som Creative Specialist och studerar webbutveckling på Mittuniversitet. I framtiden vill jag kanske studare vidare, fortsätta jobba med det jag gör nu eller starta eget. </p>
+            </div>
+        </div>
+      </div>
+    </div>
+
+
+    <footer class="text-secondary bg-primary">
+      <p>Moment 1 | Ramverk för Responsiv webbdesign | &copy; Christopher Gauffin </p>
+    </footer>
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+    <script>
+      (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+      function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+      e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+      e.src='https://www.google-analytics.com/analytics.js';
+      r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+      ga('create','UA-XXXXX-X');ga('send','pageview');
+    </script>
+
+    <!-- build:js scripts/vendor.js -->
+    <!-- bower:js -->
+    <script src="/bower_components/jquery/dist/jquery.js"></script>
+    <script src="/bower_components/popper.js/dist/umd/popper.js"></script>
+    <!-- endbower -->
+    <!-- endbuild -->
+    
+    <!-- build:js scripts/plugins.js -->
+    <script src="/bower_components/bootstrap/js/dist/util.js"></script>
+    <script src="/bower_components/bootstrap/js/dist/alert.js"></script>
+    <script src="/bower_components/bootstrap/js/dist/button.js"></script>
+    <script src="/bower_components/bootstrap/js/dist/carousel.js"></script>
+    <script src="/bower_components/bootstrap/js/dist/collapse.js"></script>
+    <script src="/bower_components/bootstrap/js/dist/dropdown.js"></script>
+    <script src="/bower_components/bootstrap/js/dist/modal.js"></script>
+    <script src="/bower_components/bootstrap/js/dist/scrollspy.js"></script>
+    <script src="/bower_components/bootstrap/js/dist/tab.js"></script>
+    <script src="/bower_components/bootstrap/js/dist/tooltip.js"></script>
+    <script src="/bower_components/bootstrap/js/dist/popover.js"></script>
+    <!-- endbuild -->
+    
+    <!-- build:js scripts/main.js -->
+    <script src="scripts/main.js"></script>
+    <!-- endbuild -->
+  </body>
+</html>

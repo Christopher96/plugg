@@ -1,0 +1,126 @@
+<div id="bootstrap" class="row">
+    <div class="col-lg-6 order-lg-2">
+        <img src="images/twitter-bootstrap.jpg" class="rounded" alt="Responsive image">
+    </div>
+    <div class="col-lg-6 order-lg-1">
+        <h2 class="title"><a href="http://getbootstrap.com" target="_blank">Twitter Bootstrap</a></h2><hr/>
+        <p>Twitter Bootstrap är ett ramverk som är perfekt för att skapa responsiva mobile first hemsidor. Bootstrap är ett opensource ramverk för utveckling inom HTML, CSS och JavaScript. Det stödjer flera Sass variabler och mixins, ett responsivt gridsystem, ett stort utbud av komponenter och användbara plugins för jQuery som gör utvecklingen snabb och effektiv.</p>
+        <a href="#" class="btn btn-primary">Läs mer...</a>
+    </div>
+</div>
+<div class="row bootstrap-content">
+    <div class="col-lg-6">
+        <h2 class="title">Komponenter</h2><hr/>
+        <p>Det finns många färdiga komponenter att välja på i bootstrap. Genom att använda CSS klasser som <code>.input-group</code>, <code>.navbar</code>, <code>.alert</code> eller <code>.dropdown</code> så kan man snabbt skapa responsiva komponenter som fungerar anpassar sig till storleken. Om man vill ändra utséende så kan man använda ex. <code>.bg-primary</code> eller <code>.navbar-dark</code> och sen ändra Sass variablerna för att få ett enhetligt tema.</p>
+    </div>
+    <div class="col-lg-6">
+        <div class="progress mb-3">
+            <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+            </div>
+            <div class="alert alert-primary" role="alert">
+            This is a primary alert—check it out!
+        </div>
+        <div class="input-group">
+            <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2">
+            <span class="input-group-addon" id="basic-addon2">@example.com</span>
+        </div>
+        <ul class="nav nav-pills mt-3 mb-3">
+            <li class="nav-item">
+                <a class="nav-link active" href="#">Active</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link disabled" href="#">Disabled</a>
+            </li>
+        </ul>
+        <nav class="breadcrumb">
+            <a class="breadcrumb-item" href="#">Home</a>
+            <a class="breadcrumb-item" href="#">Library</a>
+            <a class="breadcrumb-item" href="#">Data</a>
+            <span class="breadcrumb-item active">Bootstrap</span>
+        </nav>
+        
+        <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+            <button type="button" class="btn btn-primary">1</button>
+            <button type="button" class="btn btn-primary">2</button>
+            <div class="btn-group" role="group">
+                <button id="btnGroupDrop1" type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Dropdown
+                </button>
+                <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                <a class="dropdown-item" href="#">Dropdown link</a>
+                <a class="dropdown-item" href="#">Dropdown link</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row bootstrap-content">
+    <div class="col-lg-6">
+        <h2 class="title">Gridsystem</h2><hr/>
+        <p>Bootstrap använder ett flexibelt gridsystem med hjälp av 12 kolumner som tillåter flera olika typer av storlekar och former av layout. Det är enkelt att skapa responsiv layout med fördefinerade klasser som ex. <code>.col-md-6</code>, <code>.pull-lg-right</code>, <code>.hidden-md-up</code> eller <code>.col-auto</code> där man kan med en speciell syntax välja exakt för vilka storlekar där klassen ska gälla. Sass variabler och mixins går att använda på samma sätt <code>@include media-breakpoint-down(md)</code> eller <code>$grid-breakpoints</code>. Systemet använder sig av 5 responsiva lager som går från den minsta telefonen upp till desktop</p>
+    </div>
+
+    <div class="col-lg-6 cols">
+            <!-- Stack the columns on mobile by making one full-width and the other half-width -->
+        <div class="row">
+            <div class="col-12 col-md-8">.col-12 .col-md-8</div>
+            <div class="col-12 col-md-4">.col-12 .col-md-4</div>
+        </div>
+        
+        <!-- Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop -->
+        <div class="row">
+            <div class="col-12 col-md-4">.col-12 .col-md-4</div>
+            <div class="col-6 col-md-4">.col-6 .col-md-4</div>
+            <div class="col-6 col-md-4">.col-6 .col-md-4</div>
+        </div>
+        
+        <!-- Columns are always 50% wide, on mobile and desktop -->
+        <div class="row">
+            <div class="col-6">.col-6</div>
+            <div class="col-6">.col-6</div>
+        </div>
+        
+        <div class="row">
+            <div class="col-3">.col-3</div>
+            <div class="col-3">.col-3</div>
+            <div class="col-3">.col-3</div>
+            <div class="col-3">.col-3</div>
+        </div>
+    </div>
+</div>
+<div class="row bootstrap-content">
+    <div class="col-lg-6">
+        <h2 class="title">JavaScript</h2><hr/>
+        <p>Utöver Bootstraps praktiska gridsystem och klasser så finns det även möjlighet att lägga på Bootstraps JavaScript bibliotek och få tillgång till en hel del användbara interaktiva komponenter som ex. Modaler som använder jQuery och nu även Popups med Bootstrap 4 som använder popper.js</p>
+    </div>
+    <div class="col-lg-6" style="padding-left: 8rem; padding-right: 8rem;">
+        <img src="images/js.jpg"class="rounded" alt="Responsive image">
+    </div>
+</div>
+<div id="foundation" class="row">
+    <div class="col-lg-6">
+        <img src="images/foundation.jpg" class="rounded" alt="Responsive image">
+    </div>
+    <div class="col-lg-6">
+        <h2 class="title"><a href="http://foundation.zurb.com/" target="_blank">Foundation</a> </h2><hr/>
+        <p>Foundation är släpptes 2011 av organisationen Zurb. Precis som Bootstrap så kommer Foundation med ett funktionellt gridsystem, CSS och JavaScipt komponenter. Tidigare så ansågs Foundation vara ett av dem bästa ramverken för webbdesign speciellt då det var ett bland dem första som stödje Sass. Det senaste Foundation 6.0 släpptes 2015. Nu har man uppdelat det i "Foundation for Sites" och "Foundation for Emails" där templates och kompontenter skiljer sig beroende på miljö. Det går också att välja om man vill köra ren CSS eller Sass och även Ruby on Rails.</p>
+    </div>
+</div>
+<div id="purecss" class="row">
+    <div class="col-lg-6 order-lg-2">
+        <img src="images/purecss.jpg" class="rounded" alt="Responsive image">
+    </div>
+    <div class="col-lg-6 order-lg-1">
+        <h2 class="title"><a href="http://foundation.zurb.com/" target="_blank">PureCSS</a> </h2><hr/>
+        <p>PureCSS är ett väldigt lätt och simpelt ramverk som fungerar utmärkt för exempelvis mobila applikationer då det väger endast 3.8 kb minfierat. Det bygger på Normalize.css som gör att HTML elementen framställs förenligt med moderna standarder. Även fast det är så litet så finns det ändå tillgång till komponenter för knappar, menyer och formulär och ett gridsystem. PureCSS har anpassats för att kunna överskrivas och dem uppmuntrar en att lägga på egna stilmallar. Det är också väldigt tänjbart, så om man skulle vela lägga på exempelvis bootstrap modals så är det inga problem.</p>
+    </div>
+</div>
+
+    

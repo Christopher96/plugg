@@ -1,0 +1,94 @@
+
+@import "bower_components/bootstrap/scss/bootstrap.scss";
+
+body {
+  margin: 0;
+  padding: 0;
+  color: $body-color;
+  background-color: $body-bg;
+}
+
+footer {
+  text-align: center;
+  margin-top: 10rem;
+  padding: 2rem;
+}
+
+.jumbotron {
+  background-attachment: fixed;
+  background-repeat: repeat;
+  background-image: url("../images/space.jpg");
+  height: 30rem;
+  .container {
+    margin-top: 5rem;
+  }
+}
+
+.container > .row {
+  margin-top: 7rem;
+}
+
+.cols > .row {
+  margin: 0;
+  *[class^='col'], *[class*=' col'] {
+    color: theme-color("secondary");
+    background-color: theme-color("primary");
+    padding: 20px;
+    border: 1px solid;
+  }
+}
+
+*[class^='col'], *[class*=' col'] {
+  img {
+    width: 100%;
+  }
+}
+
+@include media-breakpoint-down(md) {
+  .title {
+    margin-top: 20px;
+  }
+
+  .container > .row:first-child {
+    margin-top: 0;
+  }
+
+  header {
+    display: -webkit-box;
+    display: -moz-box;
+    display: box;
+
+    -webkit-box-orient: vertical;
+    -moz-box-orient: vertical;
+    box-orient: vertical;
+
+    margin-bottom: 2rem;
+
+    nav {
+      -webkit-box-ordinal-group: 2;
+      -moz-box-ordinal-group: 2;
+      box-ordinal-group: 2;
+
+      .nav {
+        display: block;
+      }
+    }
+
+    .jumbotron {
+      -webkit-box-ordinal-group: 1;
+      -moz-box-ordinal-group: 1;
+      box-ordinal-group: 1;
+      .container {
+        padding: 1rem;
+      }
+
+      h1 {
+        font-size: 4rem;
+      }
+    }
+  }
+}
+
+@include media-breakpoint-up(md) {
+
+}

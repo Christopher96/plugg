@@ -1,0 +1,4 @@
+1. Decimal bör användas när man har värden inom 10^(+/-28) där man vill representera värdet på ett visst sätt tillexempel för pengar.
+Double kan användas när man när man ej behöver samma precision men jobbar med väldigt stora tal 10^(+/-300).
+
+2. 

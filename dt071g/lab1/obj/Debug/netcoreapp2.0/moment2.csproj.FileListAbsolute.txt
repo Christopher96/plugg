@@ -1,0 +1,10 @@
+C:\MAMP\htdocs\plugg\dt071g\lab1\bin\Debug\netcoreapp2.0\moment2.deps.json
+C:\MAMP\htdocs\plugg\dt071g\lab1\bin\Debug\netcoreapp2.0\moment2.runtimeconfig.json
+C:\MAMP\htdocs\plugg\dt071g\lab1\bin\Debug\netcoreapp2.0\moment2.runtimeconfig.dev.json
+C:\MAMP\htdocs\plugg\dt071g\lab1\bin\Debug\netcoreapp2.0\moment2.dll
+C:\MAMP\htdocs\plugg\dt071g\lab1\bin\Debug\netcoreapp2.0\moment2.pdb
+C:\MAMP\htdocs\plugg\dt071g\lab1\obj\Debug\netcoreapp2.0\moment2.csproj.CoreCompileInputs.cache
+C:\MAMP\htdocs\plugg\dt071g\lab1\obj\Debug\netcoreapp2.0\moment2.AssemblyInfoInputs.cache
+C:\MAMP\htdocs\plugg\dt071g\lab1\obj\Debug\netcoreapp2.0\moment2.AssemblyInfo.cs
+C:\MAMP\htdocs\plugg\dt071g\lab1\obj\Debug\netcoreapp2.0\moment2.dll
+C:\MAMP\htdocs\plugg\dt071g\lab1\obj\Debug\netcoreapp2.0\moment2.pdb

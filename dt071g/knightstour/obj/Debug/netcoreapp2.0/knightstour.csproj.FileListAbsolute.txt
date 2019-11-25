@@ -1,0 +1,10 @@
+C:\MAMP\htdocs\plugg\dt071g\knightstour\obj\Debug\netcoreapp2.0\knightstour.csproj.CoreCompileInputs.cache
+C:\MAMP\htdocs\plugg\dt071g\knightstour\obj\Debug\netcoreapp2.0\knightstour.AssemblyInfoInputs.cache
+C:\MAMP\htdocs\plugg\dt071g\knightstour\obj\Debug\netcoreapp2.0\knightstour.AssemblyInfo.cs
+C:\MAMP\htdocs\plugg\dt071g\knightstour\bin\Debug\netcoreapp2.0\knightstour.deps.json
+C:\MAMP\htdocs\plugg\dt071g\knightstour\bin\Debug\netcoreapp2.0\knightstour.runtimeconfig.json
+C:\MAMP\htdocs\plugg\dt071g\knightstour\bin\Debug\netcoreapp2.0\knightstour.runtimeconfig.dev.json
+C:\MAMP\htdocs\plugg\dt071g\knightstour\bin\Debug\netcoreapp2.0\knightstour.dll
+C:\MAMP\htdocs\plugg\dt071g\knightstour\bin\Debug\netcoreapp2.0\knightstour.pdb
+C:\MAMP\htdocs\plugg\dt071g\knightstour\obj\Debug\netcoreapp2.0\knightstour.dll
+C:\MAMP\htdocs\plugg\dt071g\knightstour\obj\Debug\netcoreapp2.0\knightstour.pdb

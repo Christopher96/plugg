@@ -1,0 +1,11 @@
+1. Anders Hejlsberg är en duktig programmerare som har varit med och designat flera framgångrika och populära programmerings språk och verktyg. Han är den orginella författaren av turbo pascal och är arkitektchef på Delphi. 
+
+2. Att kompilera innebär att transformera kod skrivet i ett programmerings språk till ett annat programmering språk genom en kompilator. Vanligtvis så kompilerar man källkod från ett högnivå språk ex. c# till ett lågnivå språk ex. assembly för att skapa ett exekverbart program. 
+
+3. En konsoll kan användas av en användare för att skicka kommandon till andra program. Programmet som hanterar gränsnittet kallas för shell eller commmand language interpreter/interface (CLI).
+
+4. Java är det som liknar C# mest då båda är högnivåspråk, även Python har vissa liknelser.
+
+5. C# används mycket i Microsoft baserade applikationer ex. .NET, winforms, spel eller konsollapplikationer
+
+6. C#-dur = a#-moll, c#-moll = E-dur
